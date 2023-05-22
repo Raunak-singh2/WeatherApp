@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+h1 {
+  padding: 10px;
+  margin-top: -20px;
+  text-align: center;
+}
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  margin: 20px;
+  width: 80%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.icon img{
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.city-input {
+  padding: 6px 13px;
+}
+.btn{
+  padding: 7px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: bold;
+}
+.tempurater {
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.description {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: background 0.2s ease-in-out;
+}
+.details div{
+  background: #e1dcdcdf;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.details div:hover {
+  background: #d6d6d6;
+
+}
+img{
+  margin-left: 42%;
+  padding: 10px;
+  font-size: 35px;
+}
